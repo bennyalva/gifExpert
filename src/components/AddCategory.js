@@ -5,6 +5,7 @@ const AddCategory = ({setCategories1}) => {
     const handlerChange = (e) => {
         setInputValue(e.target.value)
     }
+    
 
     const handlerSubmit = (e) => {
         e.preventDefault();// no recargar lo del navegador
